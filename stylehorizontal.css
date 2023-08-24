@@ -1,0 +1,51 @@
+a {
+    margin-top: 10px;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: aqua;
+}
+
+body {
+    background-color: rgb(183, 194, 190);
+    padding: 100%;
+}
+
+header {
+    margin: auto;
+}
+
+main {
+    margin: auto;
+}
+
+p {
+    font-size: 22px;
+    text-align: justify;
+    
+}
+h1 {
+    font-size: 50px;
+    color: blueviolet;
+    background-color: brown;
+    text-align: center;
+}
+
+#imagem {
+    background-image: url(img/la\ ferrari2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: antiquewhite;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#menu {
+    display: none;
+}
